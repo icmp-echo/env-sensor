@@ -18,3 +18,6 @@ web-server for current status remote view
 screen for live view on hardware
 
 
+schematic
+=========
+http://nbviewer.jupyter.org/github/icmp-echo/env-sensor/blob/master/temperature%20sensor%20schematic.pdf
