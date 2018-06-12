@@ -22,6 +22,8 @@ monitors temp and humidity using ADA-AM2302 and voltage diffrence using ADA-MCP3
 
 send alerts using smtp and monitored data can be polled through snmp.
 
+Data stored in database for treding purpose and future features.
+
 future work
 ===========
 console-server (done but not implemented)
