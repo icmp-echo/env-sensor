@@ -10,8 +10,11 @@ send alerts using smtp and monitored data can be polled through snmp.
 future work
 ===========
 console-server (done but not implemented)
+
 camera for location monitoring
+
 web-server for current status remote view
+
 screen for live view on hardware
 
 
