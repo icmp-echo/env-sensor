@@ -1,7 +1,22 @@
 # Env-sensor
 
 
-Cost effective solution for Temperature, Humidity & External voltage meter for Data Center or POP.
+Cost effective solution for Data Center or POP.
+
+Currently working
+=================
+
+Temperature sensor
+
+Humidity sensor
+
+External voltage drop and fluctuation
+
+snmp data polling
+
+Triggering & alerting with Email 
+
+-------------------------------------
 
 monitors temp and humidity using ADA-AM2302 and voltage diffrence using ADA-MCP3008.
 
