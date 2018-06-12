@@ -1,4 +1,4 @@
-# env-sensor
+# Env-sensor
 
 
 Cost effective solution for Temperature, Humidity & External voltage meter for Data Center or POP.
@@ -20,4 +20,4 @@ screen for live view on hardware
 
 schematic
 =========
-http://nbviewer.jupyter.org/github/icmp-echo/env-sensor/blob/master/temperature%20sensor%20schematic.pdf
+![Schematic](https://github.com/icmp-echo/env-sensor/blob/master/temperature%20sensor%20schematic.png)
