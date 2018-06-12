@@ -11,6 +11,8 @@ future work
 ===========
 console-server (done but not implemented)
 
+smoke alarm
+
 camera for location monitoring
 
 web-server for current status remote view
