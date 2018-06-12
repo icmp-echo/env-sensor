@@ -13,9 +13,11 @@ console-server (done but not implemented)
 
 smoke alarm
 
-camera for location monitoring
+video surveillance
 
-web-server for current status remote view
+web-server for remote operation and data statistics 
+
+door sensors
 
 screen for live view on hardware
 
