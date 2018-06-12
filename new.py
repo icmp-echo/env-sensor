@@ -23,7 +23,7 @@ send_email_t=0
 RR=0
 RH=0
 RT=0
-recipient = [" test@email.com "]
+recipient = [" test@example.com "]
 
 def log_temperature(temp):
 
@@ -90,7 +90,7 @@ while True:
         if (send_email_ps != 1):
                msg = "Subject:Alert\nExternal Power Supply is down\n Location: DC1 at UVA".format(value)
 	       server = smtplib.SMTP('localhost')
-               server.sendmail("sensor@email.com", recipient, msg)
+               server.sendmail("sensor@example.com", recipient, msg)
                send_email_ps=1
                RR=1
         else:
@@ -99,7 +99,7 @@ while True:
         if (RR==1):
                 msg = "Subject:Recovery Alert\nExternal Power Supply is back up\n Location: DC1 at UVA".format(value)
                 server = smtplib.SMTP('localhost')
-		server.sendmail("sensor@email.com", recipient, msg)
+		server.sendmail("sensor@example.com", recipient, msg)
                 send_email_ps=0
                 RR=0
         else:
@@ -110,7 +110,7 @@ while True:
         if (send_email_h != 1 ):
               	msg = "Subject:Alert\nWarning for Humidity:: Reads at: {0:0.1f}%\nLocation: DC1 at UVA".format(h)
                	server = smtplib.SMTP('localhost')
-		server.sendmail("sensor@email.com", recipient, msg)
+		server.sendmail("sensor@example.com", recipient, msg)
                	send_email_h=1
                	RH=1
         else:
@@ -119,7 +119,7 @@ while True:
          if (RH==1):
                 msg = "Subject:Recovery Alert\nWarning for Humidity Recovered :: Reads at: {0:0.1f}%\nLocation: DC1 at UVA".format(h)
 		server = smtplib.SMTP('localhost')
-                server.sendmail("sensor@email.com", recipient, msg)
+                server.sendmail("sensor@example.com", recipient, msg)
                 send_email_h=0
                 RH=0
          else:
@@ -129,7 +129,7 @@ while True:
         if (send_email_t != 1):
                 msg = "Subject:Alert\nCurrent Temperature Reads at : {0:0.1f} Celcius\nLocation: DC1 at UVA".format(t)
                 server = smtplib.SMTP('localhost')
-		server.sendmail("sensor@email.com", recipient, msg)
+		server.sendmail("sensor@example.com", recipient, msg)
                 send_email_t=1
                 RT=1
         else:
@@ -138,7 +138,7 @@ while True:
         if (RT==1):
                 msg = "Subject:Recovery Alert\nHigh Temperature Recovered :: Reads at: {0:0.1f}%\nLocation: DC1 at UVA".format(h)
 		server = smtplib.SMTP('localhost')
-                server.sendmail("sensor@email.com", recipient, msg)
+                server.sendmail("sensor@example.com", recipient, msg)
                 send_email_t=0
                 RT=0
         else:
