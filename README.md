@@ -44,3 +44,7 @@ screen for live view on hardware
 schematic
 =========
 ![Schematic](https://github.com/icmp-echo/env-sensor/blob/master/temperature%20sensor%20schematic.png)
+
+web server
+==========
+![sample] (https://github.com/icmp-echo/env-sensor/blob/master/sample.png)
