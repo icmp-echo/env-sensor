@@ -16,6 +16,8 @@ snmp data polling
 
 Triggering & alerting with Email 
 
+Showing current values on webpage on analogue gauge
+
 -------------------------------------
 
 monitors temp and humidity using ADA-AM2302 and voltage diffrence using ADA-MCP3008.
@@ -32,7 +34,7 @@ smoke alarm
 
 video surveillance
 
-web-server for remote operation and data statistics 
+web-server for remote operation and data statistics (partially done)
 
 door sensors
 
