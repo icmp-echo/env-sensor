@@ -47,4 +47,4 @@ schematic
 
 web server
 ==========
-![sample] (https://github.com/icmp-echo/env-sensor/blob/master/sample.png)
+![sample](https://github.com/icmp-echo/env-sensor/blob/master/sample.png)
