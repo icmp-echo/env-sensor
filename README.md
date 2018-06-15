@@ -3,6 +3,12 @@
 
 Cost effective solution for Data Center or POP.
 
+monitors temp and humidity using ADA-AM2302 and voltage diffrence using ADA-MCP3008.
+
+send alerts using smtp and monitored data can be polled through snmp.
+
+Data stored in database for treding purpose and future features.
+
 Currently working
 =================
 
@@ -18,13 +24,6 @@ Triggering & alerting with Email
 
 Showing current values on webpage on analogue gauge
 
--------------------------------------
-
-monitors temp and humidity using ADA-AM2302 and voltage diffrence using ADA-MCP3008.
-
-send alerts using smtp and monitored data can be polled through snmp.
-
-Data stored in database for treding purpose and future features.
 
 future work
 ===========
