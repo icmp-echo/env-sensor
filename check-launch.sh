@@ -6,7 +6,7 @@ result=$(echo $ps_out | grep "$1")
 if [[ "$result" != "" ]];then
     :
 else
-    /home/pi/thv.py &
+    /home/pi/new.py &
 fi
 
 
